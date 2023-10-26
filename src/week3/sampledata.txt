@@ -1,0 +1,22 @@
+//courses
+{
+    "id": 10,
+    "title": "js full",
+    "description": "complete js",
+    "price": 100,
+    "imageLink": "kkljljn.com",
+     "published": true
+}
+
+//admins
+
+{
+    "username":"omkar",
+    "password":"omkar123"
+
+}
+{
+    "username":"isha",
+    "password":"isha123"
+
+}
