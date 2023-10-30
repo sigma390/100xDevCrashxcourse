@@ -74,14 +74,14 @@
 // }
 // //HTML RETURN
 // function givpage(req:any,res:any) {
-// //     res.send(`<head>
-// //     <title>HTML DOC</title>
-// // </head>
-// // <body>
-// //     <b>hi its html documnet</b>
-// // </body>`)
+//     res.send(`<head>
+//     <title>HTML DOC</title>
+// </head>
+// <body>
+//     <b>hi its html documnet</b>
+// </body>`)
 
-// //another way
+//another way
 
 // res.sendFile(__dirname+"/index.html");
     

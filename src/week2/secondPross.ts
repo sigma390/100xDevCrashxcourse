@@ -11,4 +11,4 @@ function CallbackFN(result:any) {
     result.json().then(logResponseBody);
     
 }
-fetch("http://localhost:3000/handleSum?n1=5",sendObj).then(CallbackFN)
+fetch("http://localhost:3000/handleSum?n1=5",sendObj).then(CallbackFN) 

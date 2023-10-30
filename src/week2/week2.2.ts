@@ -52,7 +52,7 @@ function handleReq(req:any, res:any){
 
 
 // app.get('/handlesum', handleReq); //get request
-app.get('/handlesum', handleReq); //post request
+app.get('/handlesum',middleware1, handleReq); //post request
 
 
 
