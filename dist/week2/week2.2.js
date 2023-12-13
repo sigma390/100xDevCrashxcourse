@@ -29,7 +29,7 @@ function handleReq(req, res) {
     }
 }
 // app.get('/handlesum', handleReq); //get request
-app.get('/handlesum', handleReq); //post request
+app.get('/handlesum', middleware1, handleReq); //post request
 //listener started
 function started() {
     console.log(`Example app listening on port ${port}`);

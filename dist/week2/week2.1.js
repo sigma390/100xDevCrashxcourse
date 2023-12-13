@@ -53,13 +53,13 @@
 // }
 // //HTML RETURN
 // function givpage(req:any,res:any) {
-// //     res.send(`<head>
-// //     <title>HTML DOC</title>
-// // </head>
-// // <body>
-// //     <b>hi its html documnet</b>
-// // </body>`)
-// //another way
+//     res.send(`<head>
+//     <title>HTML DOC</title>
+// </head>
+// <body>
+//     <b>hi its html documnet</b>
+// </body>`)
+//another way
 // res.sendFile(__dirname+"/index.html");
 // }
 // // app.get('/handlesum', handleReq); //get request
