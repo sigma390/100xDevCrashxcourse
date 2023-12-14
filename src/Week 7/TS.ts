@@ -5,6 +5,10 @@
 function calculatesum(a:number,b:number):number{
     return a+b;
 } 
+// interface 
+
+
+
 
 type type = "add"|"sub"|"div"|"mul";
 
@@ -24,4 +28,6 @@ function calc(a:number,b:number,x:type):number{
 
 }
 
+
+//
 console.log(calc(1,2,"mul"))
